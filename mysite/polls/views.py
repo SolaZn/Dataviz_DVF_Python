@@ -9,9 +9,9 @@ import matplotlib.pyplot as plt
 import plotly.express as px
 
 
-data = pd.read_csv('/content/valeursfoncieres-2022.txt', sep='|', decimal=',')
-data2019 = pd.read_csv('/content/valeursfoncieres-2019.txt', sep='|', decimal=',')
-data2021 = pd.read_csv('/content/valeursfoncieres-2021.txt', sep='|', decimal=',')
+data = pd.read_csv(r'C:\Users\zakan\Documents\Dataviz_DVF_Python\mysite\valeursfoncieres-2022.txt', sep='|', decimal=',')
+data2019 = pd.read_csv(r'C:\Users\zakan\Documents\Dataviz_DVF_Python\mysite\valeursfoncieres-2019.txt', sep='|', decimal=',')
+data2021 = pd.read_csv(r'C:\Users\zakan\Documents\Dataviz_DVF_Python\mysite\valeursfoncieres-2021.txt', sep='|', decimal=',')
 
 #Formatage
 #Retraits de colonnes

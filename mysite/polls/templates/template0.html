@@ -5,13 +5,6 @@
     <title>My test page</title>
   </head>
   <body>
-      <form class="Choix" method="get" action=""
-          <select name "ListeVisualisations">
-              {% for visualisation in visualisations %}
-                  <option value ="{{visualisation}}"> {{visualisation}}</option>
-              {% endfor %}
-          </select>
-      </form>
     <p>This is my page</p>
     {{premier_plot|safe}}
   </body>
